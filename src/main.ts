@@ -1,4 +1,4 @@
-import { Canvas } from "./files/canvas";
+import { Canvas } from "./app/canvas";
 import "./style.css";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
