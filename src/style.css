@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --clr-bg: "hsl(0,0%,90%)";
+    --clr-text: "hsl(0, 0%, 10%)";
+  }
+
+  html {
+    color-scheme: light dark;
+  }
+
+  .dark {
+    color-scheme: dark;
+    --clr-bg: "hsl(0,0%,0%)";
+    --clr-text: "hsl(0, 0%, 90%)";
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
